@@ -2,7 +2,7 @@ Name: Marcio Matias
 
 Student Number: ST10443172 
 
-GitHub Repository :
+GitHub Repository : https://github.com/ST10443172/TheWeatherApp1.git
 
 Purpose
 The Weather App is designed to provide users with detailed weather information for each day of the week. It calculates and displays the average temperature for the week and allows users to view detailed information for each day, including maximum and minimum temperatures, and weather conditions.
