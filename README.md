@@ -32,10 +32,9 @@ Design Considerations
 - **Data Handling**: Uses parallel arrays to efficiently manage and process weather data.
 - **Error Handling**: Provides constructive feedback to users for incorrect actions.
 
-Utilization of GitHub and GitHub Actions
+Utilization of GitHub
   The project is version-controlled using GitHub.
   Regular commits and pushes ensure the project is updated and backed up.
-  GitHub Actions can be used for automated testing and deployment workflows.
 
 Steps to Run the App
 1. Clone the repository from GitHub.
