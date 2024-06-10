@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22D3FC"
+    android:backgroundTint="#84CFE8"
+    tools:context=".MainScreenActivity">
+
+    <Space
+        android:id="@+id/space"
+        android:layout_width="356dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="391dp"
+        android:layout_height="254dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/space">
+
+        <EditText
+            android:id="@+id/dayEditText"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Day(e.g.,Monday,Tuesday,Wednesday....)" />
+
+        <EditText
+            android:id="@+id/minEditText"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Min" />
+
+        <EditText
+            android:id="@+id/maxEditText"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Max" />
+
+        <EditText
+            android:id="@+id/weatherConditionEditText"
+            android:layout_width="380dp"
+            android:layout_height="72dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Weather Condition" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="185dp"
+        android:backgroundTint="#1E73F2"
+        android:text="Add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="138dp"
+        android:layout_marginEnd="185dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#1E73F2"
+        android:text="Clear"
+        app:layout_constraintBottom_toTopOf="@+id/detailedViewButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/detailedViewButton"
+        android:layout_width="144dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="173dp"
+        android:backgroundTint="#1E73F2"
+        android:text="Detailed View"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
