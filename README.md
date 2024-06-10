@@ -3,6 +3,7 @@ Name: Marcio Matias
 Student Number: ST10443172 
 
 GitHub Repository : https://github.com/ST10443172/TheWeatherApp1.git
+PowerPoint:
 
 Purpose
 The Weather App is designed to provide users with detailed weather information for each day of the week. It calculates and displays the average temperature for the week and allows users to view detailed information for each day, including maximum and minimum temperatures, and weather conditions.
@@ -22,6 +23,7 @@ Pseudocode
     - Implement functionality to clear and re-input data.
 3. Detailed View Screen:
       Display detailed information for each day's temperature.
+
       Include maximum and minimum temperatures and weather conditions.
       Provide navigation back to the main screen.
 
